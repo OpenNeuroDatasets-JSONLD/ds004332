@@ -6,7 +6,16 @@
             "IsAbout": {
                 "TermURL": "nb:Age",
                 "Label": ""
-            }
+            },
+            "Transformation": {
+                "TermURL": "nb:FromInt",
+                "Label": "integer data"
+            },
+            "MissingValues": [
+                "",
+                "n/a",
+                " "
+            ]
         }
     },
     "sex": {
@@ -38,5 +47,15 @@
             "subject": "participants who were incluced in the study",
             "pilot": "participants who were not included in the study, but scanned as pilots"
         }
+    },
+    "participant_id": {
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": ""
+            },
+            "Identifies": "participant"
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
     }
 }
